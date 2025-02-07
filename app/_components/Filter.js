@@ -43,7 +43,7 @@ function Filter() {
         handleFilter={handleFilter}
         activeFilter={activeFilter}
       >
-        8&mdash;12 guests $%
+        8&mdash;12 guests
       </Button>
     </div>
   );
