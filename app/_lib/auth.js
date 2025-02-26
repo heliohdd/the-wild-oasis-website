@@ -14,6 +14,3 @@ export const {
   handlers: { GET, POST },
   auth,
 } = NextAuth(authConfig);
-// export const { handlers, auth, signIn, signOut } = NextAuth({
-//   providers: [Google],
-// });
