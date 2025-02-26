@@ -13,9 +13,14 @@ const authConfig = {
       return !!auth?.user;
     },
   },
+  pages: {
+    signIn: "/login",
+  },
 };
 
 export const {
-  handlers: { GET, POST },
   auth,
+  signIn,
+  signOut,
+  handlers: { GET, POST },
 } = NextAuth(authConfig);
